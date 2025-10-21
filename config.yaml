@@ -1,0 +1,13 @@
+litellm_settings:
+  callbacks: ["prometheus"]
+
+router_settings:
+  redis_host: 15.204.22.63
+  redis_password: ntrntrntr
+  redis_port: 6333
+  cache_params:
+    type: redis
+    max_connections: 100  # maximum Redis connections in the pool; tune based on expected concurrency/load
+
+
+
